@@ -1,0 +1,41 @@
+#!/usr/bin/bash
+#Tools Pemudah / Pemersingkat
+#Ngapain Lu ke Sini, Mau recode?
+#Gua Janji Gak Bakal Recode
+#Tepatin Janji Lu
+#Janji di Bawa Mati
+a='\e[1;31m'
+b='\e[1;32m'
+c='\e[1;33m'
+d='\e[1;34m'
+e='\e[1;35m'
+f='\e[1;36m'
+g='\e[1;37m'
+python2 BangZat.py
+sleep 3
+clear
+echo -e $a 'Tools ini Hanya Untuk Mempermudah dan Mempersingkat Saja'
+sleep 1
+echo -e $b 'Autor : Mr.GxDDP'
+echo -e $c 'Team : BangZat PhiSingeRs InDoNeSia'
+sleep 1
+echo -e $e 'Jika Ada Kesalahan di Tools ini Mohon diMaafkan'
+sleep 1
+echo -e $d 'Masukan Alamat File Yang Ingin Kamu Upload'
+echo -e $f 'Contoh : /sdcard/BPI-Tools/BPI'
+read -p " [BangZatters]=>> " file
+cd $file
+echo -e $a 'Masukkan Alamat Github / Repositories Kamu'
+echo -e $b 'Contoh : https://github.com/BangZatters/Spam-BPI.git'
+read -p " [BangZatters]=>> " alamat
+git init
+git add *
+git commit -m "OK"
+git remote add origin $alamat
+clear
+echo -e $f 'Masukkan Username Github dan Password Milik Lu'
+git push origin master
+sleep 2
+echo -e $c 'Dah Selesai Upload'
+echo 'Coba Cek di Repositories Kamu' | lolcat
+exit
