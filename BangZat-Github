@@ -11,8 +11,6 @@ d='\e[1;34m'
 e='\e[1;35m'
 f='\e[1;36m'
 g='\e[1;37m'
-python2 BangZat.py
-sleep 3
 clear
 echo -e $a 'Tools ini Hanya Untuk Mempermudah dan Mempersingkat Saja'
 sleep 1
@@ -37,5 +35,5 @@ echo -e $f 'Masukkan Username Github dan Password Milik Lu'
 git push origin master
 sleep 2
 echo -e $c 'Dah Selesai Upload'
-echo 'Coba Cek di Repositories Kamu' | lolcat
+echo -e $b 'Coba Cek di Repositories Kamu'
 exit
