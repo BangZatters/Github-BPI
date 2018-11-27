@@ -14,7 +14,7 @@ g='\e[1;37m'
 clear
 echo -e $a 'Tools ini Hanya Untuk Mempermudah dan Mempersingkat Saja'
 sleep 1
-echo -e $b 'Autor : Mr.GxDDP'
+echo -e $b 'Author : Mr.GxDDP'
 echo -e $c 'Team : BangZat PhiSingeRs InDoNeSia'
 sleep 1
 echo -e $e 'Jika Ada Kesalahan di Tools ini Mohon diMaafkan'
